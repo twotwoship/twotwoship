@@ -67,7 +67,7 @@ Embedded Systems
 
 `C` `STM32` `DS18B20` `Timers & Interrupts` `I²C`
 
-[Code](https://github.com/twotwoship/Assignment_Collection/tree/main/Embedded/gochu_dry)
+[Code](https://github.com/twotwoship/Assignment_Collection/tree/main/Embedded/gochu_dry) · [Demo](https://youtu.be/-xmNyeOQaqY)
 
 ---
 
