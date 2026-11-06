@@ -60,6 +60,15 @@ Embedded Systems
 
 [Code](https://github.com/twotwoship/2026ESWContest_free_YAKSLOT) · [Demo](https://www.youtube.com/watch?v=20yo6nAbsLM)
 
+#### Gochu Dryer · STM32 Temperature Control
+
+- Implemented DS18B20 temperature sensing and heater relay control based on the target temperature and start switch.
+- Added button-based temperature settings, TIM interrupt-driven FND updates, and an I²C OLED interface for the target temperature and relay state.
+
+`C` `STM32` `DS18B20` `Timers & Interrupts` `I²C`
+
+[Code](https://github.com/twotwoship/Assignment_Collection/tree/main/Embedded/gochu_dry)
+
 ---
 
 ### ⚙️ MCU Projects
@@ -70,7 +79,7 @@ Embedded Systems
 | [ATmega128A Clock & Calculator](https://github.com/twotwoship/Assignment_Collection/tree/main/Embedded/atmega128/15.RTC_LCD_calculator_) | DS1307 I²C, LCD/keypad, and stack-based calculation | [Demo](https://www.youtube.com/watch?v=GpRSiZHryco) · [Presentation](https://www.youtube.com/watch?v=l9xRuBvnAL4) |
 | [ATmega128A Bluetooth Car](https://github.com/twotwoship/Assignment_Collection/tree/main/Embedded/atmega128/998.auto_car_ver1) | Ultrasonic sensing, Bluetooth commands, and PWM motor control | [Demo](https://www.youtube.com/shorts/NwpaM5rJNO4) |
 | [ATmega128A Washing Machine](https://github.com/twotwoship/Assignment_Collection/tree/main/Embedded/atmega128/07.washing_machine) | Wash/rinse/spin states, timers, and UART commands | [Demo](https://www.youtube.com/shorts/kGAorJIMjIk) |
-| [STM32 Chili Pepper Dryer](https://github.com/twotwoship/Assignment_Collection/tree/main/Embedded/gochu_dry) | Temperature sensing, heater relay, FND, and OLED | — |
+| [STM32 gochu Dryer](https://github.com/twotwoship/Assignment_Collection/tree/main/Embedded/gochu_dry) | Temperature sensing, heater relay, FND, and OLED | [Demo](https://youtu.be/-xmNyeOQaqY) |
 
 ---
 
@@ -80,6 +89,7 @@ Embedded Systems
 |---|---|---|
 | FPGA Clock & Stopwatch | FSM-based RTL design and simulation | [Code](https://github.com/twotwoship/fpga_clock) |
 | FPGA Microwave | FSM-based RTL design and simulation | [Code](https://github.com/twotwoship/fpga_microwave) · [Demo](https://www.youtube.com/watch?v=djOuPST5QnM) |
+| FPGA I2C | FSM-based RTL design and simulation | [Code](https://github.com/twotwoship/Assignment_Collection/tree/main/fpga/13_2.fpga_oled_sonic_temper.srcs) · [Demo](https://youtu.be/h_Rx22morwA) |
 | Jetson Rock–Paper–Scissors | Camera input, TensorRT inference, game logic, and Flask/MJPEG streaming | [Code](https://github.com/twotwoship/Assignment_Collection/tree/main/AI_Deep_Learning/%EA%B3%BC%EC%A0%9C%EB%AC%BC%28%EA%B0%80%EC%9C%84%EB%B0%94%EC%9C%84%EB%B3%B4%29) |
 
 The Jetson project has code and models available. Setup instructions and test results still need to be documented.
@@ -101,7 +111,7 @@ The Jetson project has code and models available. Setup instructions and test re
 - **Goal:** Connect Linux driver MMIO, DMA, and IRQ handling to an FPGA encryption path.
 - **Status:** Planning stage; implementation and verification are not complete.
 
-[Project Plan](https://github.com/twotwoship/Assignment_Collection/tree/main/fpga_base_secure_storage_controller_datapath_proto) · [Study Notes](https://github.com/twotwoship/Assignment_Collection/tree/main/aes_xts_nand)
+[Project Plan](https://github.com/twotwoship/mini_Cipher_Fabric) · [Study Notes](https://github.com/twotwoship/Assignment_Collection/tree/main/aes_xts_nand)
 
 ---
 
